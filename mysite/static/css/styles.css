@@ -131,3 +131,7 @@ p.password-reset-complete-message {
         width: 90%;
     }
 }
+.centered-form p, .centered-form a {
+    text-align: center;
+}
+

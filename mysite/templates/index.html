@@ -9,7 +9,7 @@
     <button type="submit">logout</button>
 </form>
 {% else %}
-<form>
+<form class="centered-form">
     <p>welcome new user please login or register</p>
     <p><a class="btn btn-primary" href="{% url 'login' %}">login</a> or <a class="btn btn-primary"href="{% url 'register' %}">register</a></p>
 </form>
