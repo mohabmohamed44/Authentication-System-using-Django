@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.venv/
+env/
+
+# Ignore all static files (static/ directory)
+staticfiles/
+
+# Media files (e.g. uploads)
+media/
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore env files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore local settings
+local_settings.py
+
+# Ignore migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.pkl
+
+# Node.js dependencies
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test and coverage output
+*.cover
+*.py,cover
+.tox/
+
+# mypy
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
