@@ -61,3 +61,7 @@ htmlcov/
 
 # Pytest cache
 .pytest_cache/
+
+
+# Ignore Images file
+images/
